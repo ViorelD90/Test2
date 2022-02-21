@@ -10,7 +10,7 @@ ${BROWSER} =  chrome
 
 *** Test Cases ***
 User goes to checkout with two most expensive products
-    [Documentation]  User navigates to e-shop PcGarage and tries to checkout with two most expensive laptops
+    [Documentation]  User navigates to e-shop and tries to checkout with two most expensive laptops
     [Tags]  Current
     Search for gaming laptops
     Sort search results by price > decreasing
