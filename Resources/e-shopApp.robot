@@ -20,6 +20,7 @@ Sort search results by price > decreasing
     click element   ${orderBy}
     click link   ${orderByDesc}
     wait until page contains    Pret descrescator
+    sleep   2s
 
 Add two most expensive products from result into cart
     wait until element is enabled   ${product1}
